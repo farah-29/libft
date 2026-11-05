@@ -6,13 +6,15 @@
 /*   By: fal-edlb <fal-edlb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/16 13:07:08 by fal-edlb          #+#    #+#             */
-/*   Updated: 2026/10/16 13:08:25 by fal-edlb         ###   ########.fr       */
+/*   Updated: 2026/11/03 23:57:00 by fal-edlb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
 int	ft_isprint(int c)
 {
-	if ((c >= 32 && c <= 126))
+	if (c >= 32 && c <= 126)
 		return (1);
 	return (0);
 }

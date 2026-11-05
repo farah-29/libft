@@ -1,0 +1,11 @@
+# Objects, Archives and Precompiled headers
+*.o
+*.a
+*.gch
+.bonus
+
+# Executables
+a.out
+test_prog
+main.c
+

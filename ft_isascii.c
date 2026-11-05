@@ -6,20 +6,15 @@
 /*   By: fal-edlb <fal-edlb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/16 12:59:52 by fal-edlb          #+#    #+#             */
-/*   Updated: 2026/10/16 13:04:18 by fal-edlb         ###   ########.fr       */
+/*   Updated: 2026/11/03 23:57:00 by fal-edlb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
 int	ft_isascii(int c)
 {
-	if ((c >= 0 && c <= 127))
+	if (c >= 0 && c <= 127)
 		return (1);
 	return (0);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	printf("%d\n",ft_isascii(150));
-// }

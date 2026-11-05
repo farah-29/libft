@@ -6,11 +6,13 @@
 /*   By: fal-edlb <fal-edlb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/16 14:04:07 by fal-edlb          #+#    #+#             */
-/*   Updated: 2026/10/16 14:07:57 by fal-edlb         ###   ########.fr       */
+/*   Updated: 2026/11/03 23:57:00 by fal-edlb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_bzero(void *s, size_t n){
+#include "libft.h"
 
-    ft_memset(s, 0, n);
+void	ft_bzero(void *s, size_t n)
+{
+	ft_memset(s, 0, n);
 }

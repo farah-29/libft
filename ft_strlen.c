@@ -6,26 +6,18 @@
 /*   By: fal-edlb <fal-edlb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/16 13:08:47 by fal-edlb          #+#    #+#             */
-/*   Updated: 2026/10/16 13:15:01 by fal-edlb         ###   ########.fr       */
+/*   Updated: 2026/11/03 23:51:00 by fal-edlb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
-
-int	ft_strlen(char *str)
+size_t	ft_strlen(const char *s)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
-	while (str[i])
-	{
+	while (s[i])
 		i++;
-	}
 	return (i);
-}
-
-#include <stdio.h>
-int main (void){
-	char test[]="Farah";
-	printf("%d\n",ft_strlen(test));
 }
